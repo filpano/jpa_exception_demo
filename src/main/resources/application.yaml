@@ -1,0 +1,17 @@
+---
+server.port: 8080
+spring:
+  application:
+    name: demo
+  jpa:
+    hibernate:
+      ddl-auto: update
+      generate-ddl: true
+    properties:
+      jakarta:
+        persistence:
+          create-database-schemas: true
+      hibernate:
+        hbm2ddl.auto: update
+        jdbc.time_zone: UTC
+        default_schema: demo
