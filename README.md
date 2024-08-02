@@ -1,9 +1,9 @@
-Test class that shows examples of the:
+Demo project that shows examples of the:
 ```
 ERROR: column "$COLUMN" must appear in the GROUP BY clause or be used in an aggregate function
 ```
 exception when grouping on a function with Spring JPA + a Postgres Backend.
-<p></p>
+
 If desired, one can put a breakpoint just before the <code>repository.find...()</code> and <code>query.getResultList()</code>
 and debug inside the docker container with the following commands:
 
