@@ -1,3 +1,5 @@
+See: https://github.com/spring-projects/spring-data-jpa/issues/3430
+
 Demo project that shows examples of the:
 ```
 ERROR: column "$COLUMN" must appear in the GROUP BY clause or be used in an aggregate function
